@@ -14,4 +14,116 @@
 </body>
 
 </html>
-git@github.com:sherlynrf/Charity-Water.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Water Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #f5c543;
+      color: #000;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1.5rem 0;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    /* Main Section */
+    .main-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3rem 8%;
+      flex-wrap: wrap;
+    }
+
+    .text-section {
+      flex: 1 1 45%;
+      min-width: 300px;
+    }
+
+    .text-section h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    .text-section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      font-weight: 600;
+    }
+
+    /* Image Section */
+    .image-section {
+      flex: 1 1 45%;
+      text-align: center;
+      min-width: 300px;
+    }
+
+    .image-section img {
+      width: 80%;
+      max-width: 400px;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+
+    .logo {
+      width: 70%;
+      max-width: 300px;
+    }
+
+    @media (max-width: 768px) {
+      .main-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-section h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Email Me</a>
+    <a href="#">Help Donate</a>
+    <a href="#">Why Us</a>
+    <a href="#">About Us</a>
+    <a href="#">Water Proof</a>
+  </nav>
+
+  <div class="main-container">
+    <div class="text-section">
+      <h1>Turn Passion into Impact -<br> Give Clear Water today</h1>
+      <p><strong>Access to clean water is a human right.</strong><br>
+      Your donation helps build real water projects, empowers entire communities, and proves that one voice - your voice - can change the world.</p>
+    </div>
+
+    <div class="image-section">
+      <img src="charity-water-logo.png" alt="Charity Water Logo" class="logo">
+      <img src="girl-holding-water.jpg" alt="Girl holding water glass">
+    </div>
+  </div>
+
+</body>
+</html>
